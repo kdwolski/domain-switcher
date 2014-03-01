@@ -4,7 +4,7 @@
     "description": "The name of the application"
   },
   "appDescription": {
-    "message": "Modify the domain name of the current page and reload. Useful for testing between environments.",
+    "message": "Easily switch the current tabs' URL to use a different domain from the user defined list. Useful for testing paths between QA environments.",
     "description": "The description of the application"
   }
 }

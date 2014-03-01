@@ -1,6 +1,8 @@
 {
   "name": "domain-switcher",
-  "version": "0.0.0",
-  "dependencies": {},
+  "version": "0.0.1",
+  "dependencies": {
+  	"bootstrap" : "3.1.1"
+  	},
   "devDependencies": {}
 }

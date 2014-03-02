@@ -4,7 +4,7 @@ A simple Chrome extension for easily switching the domain name of the current ta
 
 ## Prerequisites
 
-This extension is made using [Yeoman](https://github.com/yeoman/yeoman) and the [generator-chrome-extension](https://github.com/yeoman/generator-chrome-extension) generator. 
+This Chrome extension was created with [Yeoman](https://github.com/yeoman/yeoman) and the [generator-chrome-extension](https://github.com/yeoman/generator-chrome-extension) generator. 
 
 You should have the following installed:
 

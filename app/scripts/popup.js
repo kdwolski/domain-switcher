@@ -4,6 +4,15 @@ $(document).ready(function() {
     // populate select field
     getDomains();
 
+    // links within popup window (author link)
+    $('body').on('click', 'a', function() {
+        chrome.tabs.create({
+            url: $(this).attr('href')
+        });
+        return false;
+    });
+
+
 });
 
 $("#dselect").change(function() {

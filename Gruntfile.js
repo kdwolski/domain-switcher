@@ -1,7 +1,7 @@
 /*jshint camelcase: false*/
 // Generated on 2014-02-28 using generator-chrome-extension 0.2.5
 'use strict';
-var mountFolder = function (connect, dir) {
+var mountFolder = function(connect, dir) {
     return connect.static(require('path').resolve(dir));
 };
 
@@ -11,7 +11,7 @@ var mountFolder = function (connect, dir) {
 // use this if you want to recursively match all subfolders:
 // 'test/spec/**/*.js'
 
-module.exports = function (grunt) {
+module.exports = function(grunt) {
     // show elapsed time at the end
     require('time-grunt')(grunt);
     // load all grunt tasks
@@ -50,7 +50,7 @@ module.exports = function (grunt) {
             },
             test: {
                 options: {
-                    middleware: function (connect) {
+                    middleware: function(connect) {
                         return [
                             mountFolder(connect, '.tmp'),
                             mountFolder(connect, 'test')
@@ -147,7 +147,8 @@ module.exports = function (grunt) {
             },
             html: [
                 '<%= yeoman.app %>/popup.html',
-                '<%= yeoman.app %>/options.html'
+                '<%= yeoman.app %>/options.html',
+
             ]
         },
         usemin: {
@@ -253,7 +254,7 @@ module.exports = function (grunt) {
                 options: {
                     buildnumber: true,
                     background: {
-                        target:'scripts/background.js'
+                        target: 'scripts/background.js'
                     }
                 },
                 src: '<%= yeoman.app %>',
@@ -263,7 +264,7 @@ module.exports = function (grunt) {
         compress: {
             dist: {
                 options: {
-                    archive: 'package/domain switcher.zip'
+                    archive: 'package/domain-switcher.zip'
                 },
                 files: [{
                     expand: true,

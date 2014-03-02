@@ -41,7 +41,7 @@ grunt build
 - Using the 'Load unpacked extension' button, select the newly generated 'dist' directory. 
 
 ## Notes
-
+- Define the available domains in the extension's option page. Right click on extension icon and select 'Options'.
 - If you want to modify the current version, you should use the `/app` directory when installing the extension in Development mode, otherwise you will have to build each time to see your changes.
 
 ## Credits

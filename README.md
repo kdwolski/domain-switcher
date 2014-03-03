@@ -38,7 +38,7 @@ grunt build
 **4\.** Install the extension in Chrome:
 - Open Chrome extensions panel, chrome://extensions/
 - Make sure 'Developer mode' option is checked
-- Using the 'Load unpacked extension' button, select the newly generated 'dist' directory. 
+- Using the 'Load unpacked extension' button, select the newly generated `/dist` directory. 
 
 ## Notes
 - Define the available domains in the extension's option page. Right click on extension icon and select 'Options'.
